@@ -84,7 +84,7 @@ const CoursesSection: React.FC = () => {
 
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="eater-regular text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white/90">Haunted </span>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-green-600">
               Courses

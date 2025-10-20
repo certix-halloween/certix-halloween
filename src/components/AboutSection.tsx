@@ -48,7 +48,7 @@ const AboutSection = () => {
         >
           {/* ----- Left Text ----- */}
           <div className="space-y-8 lg:space-y-10">
-            <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+            <h2 className="text-4xl eater-regular lg:text-5xl xl:text-6xl font-bold leading-tight">
               <span className="text-[#E7F0E8]">Our Story, </span>
               <span className="text-[#9AD79E]">Your Future</span>
             </h2>
@@ -96,7 +96,7 @@ const AboutSection = () => {
                     <feature.icon className="w-5 h-5 lg:w-6 lg:h-6 text-[#9AD79E]" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-lg lg:text-xl font-bold text-[#E7F0E8]">
+                    <h3 className="text-lg lg:text-xl  font-bold text-[#E7F0E8]">
                       {feature.title}
                     </h3>
                     <p className="text-sm lg:text-base text-[#A5B5A6] leading-relaxed">

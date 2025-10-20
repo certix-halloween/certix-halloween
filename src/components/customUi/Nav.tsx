@@ -7,7 +7,7 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full sticky top-0 z-50 bg-[#141414]">
+    <nav className="w-full sticky top-0 h-[105px] items-center content-center z-50 bg-[#141414]">
       {/* Top thin contact bar */}
       <div className="w-full bg-black text-white">
         <div className="container mx-auto px-4 py-1 text-sm">
