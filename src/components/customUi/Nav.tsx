@@ -28,7 +28,7 @@ const Nav = () => {
       </div>
 
       {/* Main Nav */}
-      <div className="w-full bg-transparent border-b border-border">
+      <div className="w-full bg-transparent border-border">
         <div className="container mx-auto px- py-3">
           <div className="flex items-center justify-between gap-10 mx-5">
             <div className="flex items-center gap-6">

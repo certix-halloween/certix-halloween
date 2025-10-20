@@ -178,7 +178,7 @@ const HeroSection: React.FC = () => {
 
             {/* 2) Headline */}
             <motion.h1
-              className="text-[96px] md:text-7xl font-bold leading-tight transform-gpu will-change-transform"
+              className="text-[96px] eater-regular md:text-7xl font-bold leading-tight transform-gpu will-change-transform"
               style={prefersReduced ? undefined : { x: h1X, y: h1Y }}
               variants={fadeUp}
               transition={{ duration: ENTER_DURATION, ease: EASE, delay: STAGGER * 1.0 }}
@@ -229,15 +229,7 @@ const HeroSection: React.FC = () => {
                   👻 Apply Now 
                 </Button>
 
-                   <Button
-                  size="lg"
-                  className="relative z-10 text-lg px-8 py-6 transition-all duration-500 border-2 
-                             border-transparent text-white 
-                             bg-gradient-to-r from-[#37B171] via-[#216A44] to-[#41D085]
-                             hover:shadow-[0_0_22px_rgba(65,208,133,0.40)]"
-                >
-                  👻 Apply Now
-                </Button>
+              
                 </div>
              
 
