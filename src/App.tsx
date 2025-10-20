@@ -1,7 +1,17 @@
+import Hero from './components/HeroSection';
+import CoursesSection from './components/courses';
+import Footer from './components/Footer';
+import About from './components/AboutSection';
+import Navbar from "./components/customUi/Nav"
+
 function App() {
   return (
     <>
-      <h1 className="text-primary text-3xl">hello world</h1>
+    <Navbar />
+     <Hero />
+     <About />
+     <CoursesSection /> 
+     <Footer />
     </>
   );
 }
