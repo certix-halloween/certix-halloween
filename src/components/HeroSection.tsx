@@ -108,6 +108,7 @@ const HeroSection: React.FC = () => {
       `}</style>
 
       <section
+      id="home"
         className="relative w-full mx-auto min-h-[100vh] flex items-center justify-center overflow-hidden"
         onMouseMove={onMouseMove}
         aria-label="Halloween hero"

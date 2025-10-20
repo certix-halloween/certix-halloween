@@ -25,7 +25,7 @@ const SocialIcon: React.FC<SocialIconProps> = ({ label, href, children }) => (
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-[#151717] text-[#E7F0E8]">
+    <footer id="career" className="w-full bg-[#151717] text-[#E7F0E8]">
       {/* Top container (max 1920px) */}
       <div className="w-full max-w-[1920px] mx-auto px-6 md:px-10 lg:px-16 py-12">
         {/* Responsive grid: 1 → 2 → 4 */}
